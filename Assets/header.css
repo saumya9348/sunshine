@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgba(0, 0, 0, .9);
+    height: 5vh;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.navBar{
+    height: 5vh;
+    width: 75%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: aliceblue;
+    padding: 5px 20px;
+}
+.boody{
+display: flex;
+justify-content: center;
+
+
+}
+.content{
+    width: 75%;
+    background-color: #fcfbf9;
+    height: 95vh;
+    /* padding: 10px; */
+}
+.element{
+    height: 300px;
+    width: 300px;
+    background-color: #3d4472;
+    border-radius: 10px;
+    margin: 10px;
+}
+.fa-right-from-bracket:hover{
+    cursor: pointer;
+}
+.fa-right-from-bracket{
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.register-main{
+    background-color: #3d4472;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitbtn{
+    padding: 5px 10px;
+    border: .2px solid rgb(85, 61, 61);
+    background-color: #337b8a;
+    font-size: 1.1rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+.submitbtn:hover{
+    cursor: pointer;
+}
+.register{
+    width: 40%;
+    height:40vh;
+    background-color: #dee8ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+.table tr{
+    display: block;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
